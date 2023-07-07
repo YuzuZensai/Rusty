@@ -27,6 +27,12 @@ use assert_cmd::Command;
     }
 */
 
+/*
+    This test checks if the binary "hello" (In this case, it's your main.rs file, as defeined in Cargo.toml) runs successfully and prints "Hello, world!" to stdout (from print! marco).
+    It uses the Command method from the assert_cmd crate to run the binary "hello" and check if it runs successfully and prints the expected output.
+    If the binary "hello" runs successfully and prints "Hello, world!" to stdout, the test passes.
+    If the binary "hello" fails or prints something else to stdout, the test fails.
+*/
 #[test]
 fn runs() {
     let mut cmd = Command::cargo_bin("hello").unwrap();
