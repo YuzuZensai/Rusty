@@ -5,6 +5,7 @@ fn main() {
         .version("0.1.0")
         .author("SE15 <se15@kmitl.ac.th>")
         .about("Rust echo")
+        // Accept string arguments
         .arg(
             Arg::with_name("text")
                 .value_name("TEXT")
@@ -12,6 +13,7 @@ fn main() {
                 .required(true)
                 .min_values(1)
         )
+        // Flag for omitting newline
         .arg(
             Arg::with_name("omit_newline")
                 .short("n")
@@ -19,7 +21,13 @@ fn main() {
                 .takes_value(false)
         )
         .get_matches();
+
+    // Get the text argument
     let text = matches.values_of_lossy("text").unwrap();
+
+    // Checjk if the omit_newline flag is present
     let omit_newline = matches.is_present("omit_newline");
+
+    // Print the text
     print!("{}{}", text.join(" "), if omit_newline { "" } else { "\n" });
 }
