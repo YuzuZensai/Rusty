@@ -9,7 +9,7 @@ type MyResult<T> = Result<T, Box<dyn Error>>;
 
 /*
     This is a struct named Config with three fields: files, number_lines, and number_nonblank_lines.
-    files field - vector of strings that represents the files to be read.
+    files - vector of strings that represents the files to be read.
     number_lines - indicates whether to number all output lines.
     number_nonblank_lines - indicates whether to number only non-blank output lines.
 
