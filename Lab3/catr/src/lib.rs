@@ -85,6 +85,7 @@ pub fn get_args() -> MyResult<Config> {
 
 /*
     The open function is responsible for opening a file for reading.
+    or stdin depending on the filename passed
     It returns a Result with a BufReader
 
     Since you didn't learn about dynamic types yet, just know that this function can return either a BufReader that reads from stdin or a file
