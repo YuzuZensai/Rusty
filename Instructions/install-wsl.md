@@ -35,6 +35,13 @@ Now that you have WSL2 installed, you can integrate it with Visual Studio Code:
 
 4. After the extension is installed, restart or reload Visual Studio Code to apply the changes.
 
-5. You should now be able to use WSL2 as one of your available terminals in Visual Studio Code (The drop down arrow to the right of + icon around top right of your terminal section)
+5. You should now be able to use WSL2 as one of your available terminals in Visual Studio Code.
+
+##  Here's how to access it:
+
+1. Open Visual Studio Code.
+2. In the terminal section, located at the top right of the window, you'll see a dropdown arrow to the right of the "+" icon.
+3. Click on the dropdown arrow to reveal the list of available terminals.
+4. You'll find Ubuntu (or your distro) listed there. Click on it to open a terminal within VS Code.
 
 Now you're all set to work with WSL2 and use it seamlessly with Visual Studio Code!
