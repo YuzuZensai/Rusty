@@ -22,7 +22,9 @@
 
 ## Integrating with VS Code
 
-Git Bash is already integrated with VS Code as one of the available terminals. Here's how to access it:
+Git Bash is already integrated with VS Code as one of the available terminals
+
+##  Here's how to access it:
 
 1. Open Visual Studio Code.
 2. In the terminal section, located at the top right of the window, you'll see a dropdown arrow to the right of the "+" icon.
