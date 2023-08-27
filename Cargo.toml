@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "lab_1",
+    "lab_2/circle_circumference",
+    "lab_2/echor",
+    "lab_2/greeting",
+    "lab_3/catr",
+    "lab_3/slope",
+    "lab_3/triangle",
+]
