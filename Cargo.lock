@@ -229,6 +229,9 @@ dependencies = [
 [[package]]
 name = "player"
 version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+]
 
 [[package]]
 name = "ppv-lite86"
@@ -400,8 +403,18 @@ dependencies = [
 ]
 
 [[package]]
-name = "temperature"
+name = "temperature_c_to_f"
 version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+]
+
+[[package]]
+name = "temperature_f_to_c"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+]
 
 [[package]]
 name = "termtree"

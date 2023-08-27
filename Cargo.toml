@@ -1,6 +1,10 @@
 [workspace]
 
 members = [
+    "homework_2/circle_area",
+    "homework_2/temperature_c_to_f",
+    "homework_2/temperature_f_to_c",
+    "homework_2/player",
     "lab_1",
     "lab_2/circle_circumference",
     "lab_2/echor",
