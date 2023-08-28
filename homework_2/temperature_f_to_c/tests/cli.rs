@@ -12,7 +12,7 @@ fn test_temperature_conversion_f_to_c() -> TestResult {
     let mut cmd = Command::cargo_bin("temperature_f_to_c").unwrap();
 
     // Assert that the command runs successfully, produces the expected stdout output
-    cmd.arg("77").assert().success().stdout(expected);
+    cmd.arg("32").assert().success().stdout(expected);
 
     // Indicate that the test has passed
     Ok(())
