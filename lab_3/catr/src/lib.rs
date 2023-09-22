@@ -35,7 +35,7 @@ pub fn get_args() -> MyResult<Config> {
     //  Creating an instance of the App struct from clap with the program name, version, author, and description
     let matches = App::new("catr")
         .version("0.1.0")
-        .author("Yuzu <yuzu@kirameki.cafe>")
+        .author("Yuzu")
         .about("Rust neko (cat)")
 
         // Defines files arguments that are required and can be passed multiple times with the default value of "-"
