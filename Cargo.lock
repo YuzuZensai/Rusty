@@ -121,6 +121,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "count"
+version = "0.1.0"
+
+[[package]]
 name = "difflib"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -172,6 +176,16 @@ name = "greeting"
 version = "0.1.0"
 dependencies = [
  "assert_cmd",
+]
+
+[[package]]
+name = "headr"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+ "clap",
+ "predicates 2.1.5",
+ "rand",
 ]
 
 [[package]]
@@ -292,6 +306,10 @@ dependencies = [
 
 [[package]]
 name = "quote"
+version = "0.1.0"
+
+[[package]]
+name = "quote"
 version = "1.0.33"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae"
@@ -374,7 +392,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4eca7ac642d82aa35b60049a6eccb4be6be75e599bd2e9adb5f875a737654af2"
 dependencies = [
  "proc-macro2",
- "quote",
+ "quote 1.0.33",
  "syn",
 ]
 
@@ -398,7 +416,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c324c494eba9d92503e6f1ef2e6df781e78f6a7705a0202d9801b198807d518a"
 dependencies = [
  "proc-macro2",
- "quote",
+ "quote 1.0.33",
  "unicode-ident",
 ]
 

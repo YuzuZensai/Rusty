@@ -12,4 +12,7 @@ members = [
     "lab_3/catr",
     "lab_3/slope",
     "lab_3/triangle",
+    "lab_4/headr",
+    "lab_4/count",
+    "lab_4/quote",
 ]
